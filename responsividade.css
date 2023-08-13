@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+ @media screen and (min-width: 768px) and (max-width: 992px){  /* Tablet */
+
+    header{
+        height: 230px;
+    }
+
+    header h1{
+        font-size: 50px;
+    }
+
+    footer{
+        height: 60px;
+    }
+
+    .poemaum p {
+        font-size: 26px;
+    }
+
+    .poemadois p{
+        font-size: 26px;
+    }
+
+    .poematres p{
+        font-size: 26px;
+    }
+}
