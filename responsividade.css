@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
+
+@media screen and (min-width:320px) and (max-width:480px){ /* Mobile */   
+    .poemaum{
+        width: 60vw;
+    }
+
+    .imgfundoum{
+        background: url(imagens/background001.jpg) no-repeat right center;
+        background-size: cover;
+    }
+
+    .imgfundoum p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .poemadois{
+        width: 60vw;
+    }
+
+    .imgfundodois{
+        background: url(imagens/background002.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .imgfundodois p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .poematres{
+        width: 60vw;
+    }
+}    
+
+
+
  @media screen and (min-width: 768px) and (max-width: 992px){  /* Tablet */
 
     header{
