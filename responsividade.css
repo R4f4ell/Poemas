@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
 /* Mobile */   
-@media screen and (min-width:320px) and (max-width:480px){
-    main .poemaum{
+@media screen and (min-width:320px) and (max-width: 480px){    
+    .poemaum{
         width: 60px;
+    }
+
+    .poemaum p{
+        font-size: 16px;
     }
 
     .imgfundoum{
@@ -41,7 +45,7 @@
 
 
 
- @media screen and (min-width: 768px) and (max-width: 992px){  /* Tablet */
+ @media screen and (min-width: 481px) and (max-width: 768px){  /* Tablets */
 
     header{
         height: 230px;
@@ -55,23 +59,136 @@
         height: 60px;
     }
 
+    .poemaum{
+        margin: 90px 30px;
+        width: 400px;
+    }
+
     .poemaum p {
         font-size: 26px;
+        line-height: 43px;
+    }
+
+    .imgfundoum p{
+        font-size: 26px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.336);
+    }
+
+    .poemadois{
+        margin: 90px 30px;
+        width: 400px;
     }
 
     .poemadois p{
         font-size: 26px;
+        line-height: 43px;
+    }
+
+    .imgfundodois p{
+        font-size: 26px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.336);
+    }
+
+    .poematres{
+        margin: 90px 30px;
+        width: 400px;
     }
 
     .poematres p{
         font-size: 26px;
+        line-height: 43px;
     }
 }
 
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+
+
+
 /* Desktop */
-@media screen and(min-width:1025px) and (max-width:1200px){
+@media screen and (min-width:1025px) and (max-width:1200px){
 
     header{
-        height: 230px;
+        height: 260px;
     }
+
+    header h1{
+        font-size: 50px;
+    }
+
+    footer{
+        height: 60px;
+    }
+
+    .poemaum{
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        height: 500px;
+    }
+
+    .poemaum p{
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.719);
+        line-height: 43px;
+    }
+
+    .imgfundoum{
+        height: 550px;
+    }
+
+    .imgfundoum p{
+        font-size: 30px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.336);
+        line-height: 43px;
+    }
+
+    .poemadois{
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        height: 800px;
+    }
+
+    .poemadois p{
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.719);
+        line-height: 43px;
+    }
+
+    .imgfundodois{
+        height: 550px;
+    }
+
+    .imgfundodois p{
+        font-size: 30px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.336);
+        line-height: 43px;
+    }
+
+    .poematres{
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        height: 800px;
+    }
+
+    .poematres p{
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.719);
+        line-height: 43px;
+    }
+}
+
+
+    /* TV */
+    @media screen and (min-width:1201px) {
+        
     }
